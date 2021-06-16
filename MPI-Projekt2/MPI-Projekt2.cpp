@@ -193,6 +193,19 @@ int main(int argc, char* argv[]) {
     else {
         perform_computations(rank);
     }
+
+    ////Sortowanie oscylacyjne
+    //int arr[] = { 12, 11, 13, 5, 6, 7 };
+    //int arr_size = sizeof(arr) / sizeof(arr[0]);
+
+    //cout << "Given array is \n";
+    //printArray(arr, arr_size);
+
+    //mergeSort(arr, 0, arr_size - 1);
+
+    //cout << "\nSorted array is \n";
+    //printArray(arr, arr_size);
+
     MPI_Finalize();
     return 0;
 }
